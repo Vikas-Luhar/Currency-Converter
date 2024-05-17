@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: burlywood;
+    
+}
+#text{
+    margin-bottom: 1rem;
+    height: 3rem;
+    font-size: 1rem;
+    padding-left: 0.5rem;
+}
+.box{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 25px;
+}
+.from{
+    margin: 2rem 0 1rem 0;
+}
+.from select,button,input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+#dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#button{
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+}
+.country{
+    border: none;
+    outline: none;
+    border-radius: 0.6rem;
+}
+#select-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7.4rem;
+    border-radius: 0.5rem;
+    border: 1px solid lightgray;    
+}
+#select-content select{
+    font-size: 1rem;
+    width: auto;
+}
